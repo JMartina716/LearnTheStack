@@ -15,7 +15,7 @@ app.use("/api/books", routes);
 
 connectDB();
 
-app.get('/', (req, res) => res.send("Hello world!"));
+app.get('/', (req, res) => res.send("Keep on going, we're rising. We.re falling!"));
 
 const port = process.env.PORT || 8082;
 
